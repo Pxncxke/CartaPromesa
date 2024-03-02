@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6573065F-4334-4F9E-BF11-072C9925EDCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2E81C66A-F569-4FFD-ABC8-2A3A7E0A58D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6297CB9C-65C4-4A07-8AC1-4FA65A1B82D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartaPromesa.Api", "CartaPromesa.Api\CartaPromesa.Api.csproj", "{AF23D561-92C2-4F18-8058-981F0FFFFD5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartaPromesa.Domain", "CartaPromesa.Domain\CartaPromesa.Domain.csproj", "{D16F3997-D3BD-4023-BA3A-E57F59D93260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartaPromesa.Application", "CartaPromesa.Application\CartaPromesa.Application.csproj", "{A191A5FC-CA4E-4882-958C-A036613711DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartaPromesa.Persistence", "CartaPromesa.Persistence\CartaPromesa.Persistence.csproj", "{834F20E6-8EEA-4E20-8860-6069C06CFD8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF23D561-92C2-4F18-8058-981F0FFFFD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF23D561-92C2-4F18-8058-981F0FFFFD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF23D561-92C2-4F18-8058-981F0FFFFD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF23D561-92C2-4F18-8058-981F0FFFFD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16F3997-D3BD-4023-BA3A-E57F59D93260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16F3997-D3BD-4023-BA3A-E57F59D93260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16F3997-D3BD-4023-BA3A-E57F59D93260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16F3997-D3BD-4023-BA3A-E57F59D93260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A191A5FC-CA4E-4882-958C-A036613711DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A191A5FC-CA4E-4882-958C-A036613711DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A191A5FC-CA4E-4882-958C-A036613711DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A191A5FC-CA4E-4882-958C-A036613711DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834F20E6-8EEA-4E20-8860-6069C06CFD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834F20E6-8EEA-4E20-8860-6069C06CFD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834F20E6-8EEA-4E20-8860-6069C06CFD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834F20E6-8EEA-4E20-8860-6069C06CFD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF23D561-92C2-4F18-8058-981F0FFFFD5D} = {6297CB9C-65C4-4A07-8AC1-4FA65A1B82D0}
+		{D16F3997-D3BD-4023-BA3A-E57F59D93260} = {6573065F-4334-4F9E-BF11-072C9925EDCB}
+		{A191A5FC-CA4E-4882-958C-A036613711DE} = {6573065F-4334-4F9E-BF11-072C9925EDCB}
+		{834F20E6-8EEA-4E20-8860-6069C06CFD8C} = {2E81C66A-F569-4FFD-ABC8-2A3A7E0A58D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4966A479-D4BE-4718-B2DB-5E46846078F0}
+	EndGlobalSection
+EndGlobal

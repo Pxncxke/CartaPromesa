@@ -1,0 +1,6 @@
+@CartaPromesa.Api_HostAddress = http://localhost:5063
+
+GET {{CartaPromesa.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
